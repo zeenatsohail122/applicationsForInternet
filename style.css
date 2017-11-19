@@ -1,0 +1,332 @@
+body{
+    background: #f1ebe3;
+    padding: 5px;
+}
+ 
+h1{
+    text-align: center;
+    font: italic bold 66px/80px Georgia, serif;
+    border-bottom:1px solid #CCC;
+    float:left;
+    width:100%;
+    padding-bottom:3px;
+    margin:47px 0 10px 0;
+}
+
+h2{
+    color: #ea503f;
+    font-family: fantasy;
+    font-size: 30px;
+    margin:26px 0 10px 0;
+    padding: 5px;
+}
+
+h3{
+    background: #f8ffdc;
+    font: italic bold 18px/36px Georgia, serif;
+    margin:26px 0 10px 0;
+}
+
+h4{
+    color: cadetblue;
+    margin:26px 0 10px 0;
+}
+
+h5{
+    font-family: cursive, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 7px;
+    text-align: center;
+    margin:26px 0 10px 0;
+}
+
+h6{
+    background: white;
+    font-family: cursive, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 7px;
+    margin:26px 0 10px 0;
+}
+
+p{
+    margin:1px 0 10px 0;
+    padding: 5px;
+}
+
+a{
+   background-color: bisque;
+}
+.menu{
+       display: inline-block;
+       background-color: #4CAF50;
+       color: white;
+       padding: 16px;
+       font-size: 16px;
+       border: none;
+       cursor: pointer;
+}
+
+
+.dropDown{
+            position: relative;
+            display: inline-block;
+}
+
+.dropDown-content{
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropDown-content a{
+                      color: black;
+                      padding: 12px 16px;
+                      text-decoration: none;
+                      display: block;
+}
+
+.dropDown-content a:hover{
+                           background-color: #f1f1f1
+}
+
+.dropDown:hover .dropDown-content{
+                                    display: block;
+}
+
+.dropown:hover .dropbtn{
+                          background-color: #3e8e41;
+}
+
+#table-font{
+             background: rgba(0, 0, 0, .1);
+             border-radius: 50px;
+             box-sizing: border-box;
+             padding: 50px;
+             width: 1220px;
+}
+
+header{
+        position: relative;
+}
+    
+table{
+       background: #fff;
+       border-collapse: collapse;
+       color: #222;
+       font-family: 'PT Sans', sans-serif;
+       font-size: 19px;
+       width: 100%;
+}
+    
+td{
+    border: 1px solid #222;
+    color: #444;
+    line-height: 105px;
+    text-align: center;
+}
+   
+tr:first-child td{
+                   color: #222;
+                   font-weight: 700;
+}
+    
+.selected{
+           position: relative; 
+           background: url(pan.jpg);
+           background-size: 160px 108px;
+           border: 0;
+           box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+}
+     
+.selecteda{
+             position: relative; 
+             background: url(meat.jpg);
+             background-size: 160px 108px;
+             border: 0;
+             box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+}
+     
+#box-link{ 
+		   position: absolute; 
+		   top: 1px; 
+		   left: 1px; 
+		   width: 155px; 
+	   	   height: 104px;
+		   background-color: transparent; 
+		   border: 1px transparent;
+}	
+     
+#box-linka{ 
+		    position: absolute; 
+		    top: 1px; 
+		    left: 1px; 
+		    width: 155px; 
+		    height: 104px;
+		    background-color: transparent; 
+		    border: 1px transparent;
+}	
+
+.cmnts{
+        background: white;
+}
+
+.cmntsa{
+         background: pink;
+}
+
+ol, ul{
+        padding: 25px;
+}
+
+.Button
+    {
+       margin:5px;
+       display: inline-block;
+       background-color: #4CAF50;
+       color: white;
+       padding: 16px;
+       font-size: 16px;
+       border: none;
+       cursor: pointer;
+    }
+
+.login{
+       display: inline-block;
+       background-color: #4CAF50;
+       color: white;
+       padding: 16px;
+       font-size: 16px;
+       border: none;
+       cursor: pointer;
+}
+
+#container {
+position: fixed;
+width: 340px;
+height: 280px;
+top: 50%;
+left: 50%;
+margin-top: -140px;
+margin-left: -170px;
+background: #fff;
+border-radius: 3px;
+border: 1px solid #ccc;
+box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+p a {
+    font-size: 11px;
+    color: #aaa;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+}
+
+
+input[type=submit] {
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+    width: 90px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #148E42; /*IE fallback*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#148E42));
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border-radius: 30px;
+    border: 1px solid #148E42;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
+    background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+}
+.commentSection textarea{
+  width: 400px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 2px;
+
+}
+
+.commentSection button{
+   color: #177349;
+   opacity: 1;
+}
+
+
+.comment-box{
+  width: 800px;
+  padding: 10px;
+  margin-bottom: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+}
+
+.comment-box p{
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #282828;
+  font-weight: 100;
+}
+
+.deleteForm{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.deleteForm button{
+  color: #177349;
+  background-color: #fff;
+  opacity: 0.6;
+}
+
+.deleteForm button:hover{
+  opacity: 1;
+}
